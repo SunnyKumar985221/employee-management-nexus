@@ -1,0 +1,42 @@
+.logout{
+    background: #ff0000a1;
+    color: white !important;
+    border-radius: 10px;
+    display: inline-block;
+    /* margin: 0px 20px; */
+    font-weight: bold;
+    padding: 7px 12px 7px 12px !important;
+    font-family: monospace;
+}
+.login{
+    background: #1eff00a1;
+    color: #000000b3 !important;
+    border-radius: 10px;
+    display: inline-block;
+    /* margin: 0px 20px; */
+    font-weight: bold;
+    padding: 7px 12px 7px 12px !important;
+    font-family: monospace;
+}
+.logout:hover{
+    background-color: red;
+    transform: scale(1.1);
+}
+.navbar-nav .nav-link{
+font-size: 18px;
+padding-right: 15px !important;
+}
+.login:hover{
+    animation: logins 0.35s linear 0s 1;
+}
+@keyframes logins{
+from{transform:perspective(100px) rotate3d(2,2,2,15deg)}
+to{transform:perspective(100px) rotate3d(2,2,2,-15deg)}
+
+}
+.active{
+    color:blue;
+    background-color: green;
+    text-decoration: underline;
+    font-size: 30px;
+}
